@@ -56,7 +56,14 @@ export default function Nav({ links }) {
 	const { isOpen, onOpen, onClose } = useDisclosure();
 
 	return (
-		<Box as="nav" bg={bg}>
+		<Box
+			as="nav"
+			bg={bg}
+			pos="fixed"
+			w="full"
+			zIndex={2}
+			borderBottom="1px"
+		>
 			<Container maxW="container.lg">
 				<Flex
 					h={16}

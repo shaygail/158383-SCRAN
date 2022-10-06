@@ -34,6 +34,8 @@ export default function Hero(props) {
 						_hover={{
 							bg: 'green.500'
 						}}
+						as="a"
+						href="#map"
 					>
 						Live Map
 					</Button>
