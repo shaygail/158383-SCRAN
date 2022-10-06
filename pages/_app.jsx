@@ -4,10 +4,10 @@ import '../styles/globals.css';
 
 const links = [
 	{ name: 'Home', href: '/' },
-	{ name: 'News', href: '/news' },
-	{ name: 'Map', href: '/map' },
-	{ name: 'Analytics', href: '/analytics' },
-	{ name: 'Contact', href: '/contact' }
+	{ name: 'Map', href: '#map' },
+	{ name: 'News', href: '#news' },
+	{ name: 'Analytics', href: '#analytics' },
+	{ name: 'Contact', href: '#contact' }
 ];
 
 function MyApp({ Component, pageProps }) {
