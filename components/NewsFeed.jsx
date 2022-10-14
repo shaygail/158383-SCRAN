@@ -10,7 +10,7 @@ const NewsFeed = (props) => {
 				<SimpleGrid columns={[1, 2]} spacing={4} h="xl">
 					<Box
 						as="iframe"
-						src="https://rss.app/feeds/nK4AKSjGcTL4dhvK.xml"
+						src="https://rss.app/embed/v1/carousel/nK4AKSjGcTL4dhvK"
 						alt="twitter feed"
 						borderRadius="lg"
 						w="full"
