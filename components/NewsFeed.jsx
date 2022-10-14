@@ -18,7 +18,7 @@ const NewsFeed = (props) => {
 					/>
 					<Box
 						as="iframe"
-						src="https://rss.app/embed/v1/feed/_5UP4R7tyhrpio2CE"
+						src="https://rss.app/feeds/oZicTry2TzoOu3hM.xml"
 						alt="twitter feed"
 						borderRadius="lg"
 						w="full"
