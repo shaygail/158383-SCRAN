@@ -2,6 +2,8 @@ import Head from 'next/head';
 import Hero from '../components/Hero';
 import Map from '../components/Map';
 import NewsFeed from '../components/NewsFeed';
+import Analytics from '../components/Analytics';
+
 
 export default function Home() {
 	return (
@@ -17,6 +19,7 @@ export default function Home() {
 			<Hero py={20} pt={36} />
 			<Map py={8} />
 			<NewsFeed />
+			<Analytics />
 		</>
 	);
 }
