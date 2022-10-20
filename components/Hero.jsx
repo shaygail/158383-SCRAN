@@ -15,9 +15,7 @@ export default function Hero(props) {
 					</Text>
 				</Heading>
 				<Text color={'gray.500'}>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-					laudantium aliquid vitae mollitia illo esse architecto
-					quaerat cum autem voluptas. Fugit mollitia quis magnam?
+					This website shows a live map of any traffic situation all over New Zealand.
 				</Text>
 				<Stack
 					direction={'column'}
