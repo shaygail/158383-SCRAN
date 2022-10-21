@@ -1,0 +1,23 @@
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#NZTA_Highway_Information">
+		<SimpleData name="status">{status}</SimpleData>
+		<SimpleData name="eventIsland">{eventIsland}</SimpleData>
+		<SimpleData name="eventDescription">{eventDescription}</SimpleData>
+		<SimpleData name="eventType">{eventType}</SimpleData>
+		<SimpleData name="expectedResolution">{expectedResolution}</SimpleData>
+		<SimpleData name="impact">{impact}</SimpleData>
+		<SimpleData name="planned">{planned}</SimpleData>
+		<SimpleData name="restrictions">{restrictions}</SimpleData>
+		<SimpleData name="startDate">{startDate}</SimpleData>
+		<SimpleData name="endDate">{endDate}</SimpleData>
+		<SimpleData name="informationSource">NZTA</SimpleData>
+		<SimpleData name="supplier">Official</SimpleData>
+		<SimpleData name="eventCreated">{eventCreated}</SimpleData>
+		<SimpleData name="eventModified">{eventModified}</SimpleData>
+		<SimpleData name="eventComments">{eventComments}</SimpleData>
+		<SimpleData name="locationArea">{locationArea}</SimpleData>
+		<SimpleData name="alternativeRoute">{alternativeRoute}</SimpleData>
+		<SimpleData name="eventId">{eventId}</SimpleData>
+	</SchemaData></ExtendedData>
+    {geom}
+  </Placemark>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document id="root_doc">
+        <Schema name="NZTA_Highway_Information" id="NZTA_Highway_Information">
+            <SimpleField name="status" type="string"></SimpleField>
+            <SimpleField name="eventIsland" type="string"></SimpleField>
+            <SimpleField name="eventDescription" type="string"></SimpleField>
+            <SimpleField name="eventType" type="string"></SimpleField>
+            <SimpleField name="expectedResolution" type="string"></SimpleField>
+            <SimpleField name="impact" type="string"></SimpleField>
+            <SimpleField name="planned" type="string"></SimpleField>
+            <SimpleField name="restrictions" type="string"></SimpleField>
+            <SimpleField name="startDate" type="string"></SimpleField>
+            <SimpleField name="endDate" type="string"></SimpleField>
+            <SimpleField name="informationSource" type="string"></SimpleField>
+            <SimpleField name="supplier" type="string"></SimpleField>
+            <SimpleField name="eventCreated" type="string"></SimpleField>
+            <SimpleField name="eventModified" type="string"></SimpleField>
+            <SimpleField name="eventComments" type="string"></SimpleField>
+            <SimpleField name="locationArea" type="string"></SimpleField>
+            <SimpleField name="alternativeRoute" type="string"></SimpleField>
+            <SimpleField name="eventId" type="int"></SimpleField>
+        </Schema>
+        <Style id="caution_n">
+            <IconStyle>
+                <color>007CF5</color>
+                <Icon>
+                    <href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="caution_h">
+            <IconStyle>
+                <color>007CF5</color>
+                <scale>2</scale>
+                <Icon>
+                    <href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1541-caution_4x.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <StyleMap id="caution">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#caution_h</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#caution_n</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Style id="delays_n">
+            <IconStyle>
+                <color>00D6FF</color>
+                <Icon>
+                    <href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="delays_h">
+            <IconStyle>
+                <color>00D6FF</color>
+                <scale>2</scale>
+                <Icon>
+                    <href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1608-info_4x.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <StyleMap id="delays">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#delays_h</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#delays_n</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Style id="roadClosed_n">
+            <IconStyle>
+                    <color>1427A5</color>
+                <Icon>
+                    <href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container-bg_4x.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="roadClosed_h">
+            <IconStyle>
+                <color>1427A5</color>
+                <scale>2</scale>
+                <Icon>
+                    <href>https://mt.google.com/vt/icon/name=icons/onion/SHARED-mymaps-container_4x.png,icons/onion/1898-x-cross_4x.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <StyleMap id="roadClosed">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#roadClosed_h</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#roadClosed_n</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Folder>
+            <name>NZTA_Highway_Information</name>
+            {placemarks}
+        </Folder>
+    </Document>
+</kml>
